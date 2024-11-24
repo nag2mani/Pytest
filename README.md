@@ -1,5 +1,3 @@
-Here's the solution and explanation for the given problem. We'll use Python to compute the roots of the quadratic equation \(ax^2 + bx + c = 0\), taking into account both real and complex roots.
-
 ### Steps to Solve:
 1. **Understanding the Quadratic Formula**:
    The roots of a quadratic equation are given by:
