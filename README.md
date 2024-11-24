@@ -1,22 +1,5 @@
 ### Steps to Solve:
-1. **Understanding the Quadratic Formula**:
-   The roots of a quadratic equation are given by:
-   \[
-   x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
-   \]
-   Here, \(b^2 - 4ac\) is called the discriminant (\(D\)).
-
-2. **Handling Complex Roots**:
-   If \(D < 0\), the square root of the discriminant becomes imaginary. To avoid explicitly taking the square root of a negative number, we split the computation into real and imaginary parts:
-   - Real part: \(-\frac{b}{2a}\)
-   - Imaginary part: \(\frac{\sqrt{|D|}}{2a}\)
-
-3. **Output Format**:
-   - If the roots are real, the output should be \([(real1, 0), (real2, 0)]\).
-   - If the roots are complex, the output should be \([(real, imag), (real, -imag)]\).
-
-4. **Implementation**:
-   Using the above logic, we can write the Python function.
+![image](https://github.com/user-attachments/assets/2b5a0379-59d1-4d99-b097-3c5832bfab5b)
 
 ### Code Implementation:
 ```python
